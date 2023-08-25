@@ -68,7 +68,7 @@
                 article-comment-id=*{id})}" method="POST">
             <div class="row">
               <div class="col-md-10 col-lg-9">
-                <strong th:text="*{userAccount.userId}">Mini</strong>
+                <strong th:text="*{userAccount.nickname}">Mini</strong>
                 <small><time th:text="${#temporals.format(createdAt,'yyyy-MM-dd hh:mm:ss')}">2023-01-01</time></small>
                 <p class="mb-1" th:text="*{content}">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>

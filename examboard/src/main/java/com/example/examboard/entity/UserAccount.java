@@ -2,10 +2,7 @@ package com.example.examboard.entity;
 
 import com.example.examboard.constant.UserRole;
 import jakarta.persistence.*;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.ArrayList;
 import java.util.List;
